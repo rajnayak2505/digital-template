@@ -396,7 +396,7 @@
         
         .header{
             padding: 12px 45px 12px 20px;
-            position: relative;
+            position: fixed;
             z-index: 3;
         }
         .header li.active:after{display: none;}
@@ -444,7 +444,7 @@
         .info h1{font-size: 32px;}
         .info p,.btf-section .btf-info{font-size: 18px;}
 
-        .atf-section {background-size: cover; height: 320px;}
+        .atf-section {background-size: cover; height: 320px;margin-top: 64px;}
         .btf-section{padding: 40px 0px;}
 
         .btf-section ul li{
@@ -456,7 +456,7 @@
         .about-atf-section{height: 448px;}
         .login-main .header{display:flex;height:60px;}
         .bg-login-right,.bg-login-left{display: none;}
-        .login-section{height:calc(100vh - 60px); min-height: 597px;}
+        .login-section{height:calc(100vh - 84px); min-height: 580px;}
         .login-wrapper{max-width: 540px;}
 
         .alert {
@@ -488,6 +488,7 @@
         .login-wrapper .logo{margin-top: 40px;}
         .login-wrapper{height: 426px;}
         .login-wrapper input{height: 48px;}
+        .input-field{height: 50px}
         .input-wrap{margin-bottom: 20px;}
         .input-wrap:last-child{margin: 24px auto 0;}
         label{top: 19px; font-size: 14px;}
