@@ -453,10 +453,10 @@
             box-shadow: 0 -3px 57px 0 rgb(0 17 89 / 11%);
         }
 
-        .about-atf-section{height: 448px;}
+        .about-atf-section{height: 448px; margin-top: 60px;}
         .login-main .header{display:flex;height:60px;}
         .bg-login-right,.bg-login-left{display: none;}
-        .login-section{height:calc(100vh - 84px); min-height: 580px;}
+        .login-section{height:calc(100vh - 84px); min-height: 580px;margin-top: 60px;}
         .login-wrapper{max-width: 540px;}
 
         .alert {
