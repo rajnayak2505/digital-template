@@ -1,0 +1,83 @@
+Frontend Web UI/CSS Engineer Take Home Project
+
+Goal: Create a responsive website
+
+Input: Please find this link to the website designs below.
+https://zpl.io/VQN6v55
+
+Zeplin is a platform to share mocks, designs and style guides with Frontend UI Engineers.
+Before you begin, please make sure to make an account on https://zeplin.io/ if you haven’t as yet. Our recruiting team will provide access to your zeplin account email ID.
+
+Details:
+Font: Please download the free font being used in the pages from this link-> https://fonts.google.com/specimen/Roboto?query=robot.
+
+
+The website, as shared above, has the following three pages - 
+Home Page
+About Page
+Login Page
+
+Home Page
+Home page consists of two sections
+Hero/Banner Section
+Cards Section
+
+
+About Page
+About page consists of a single section which takes full height of the viewport on Desktop and Large Screens
+
+Login Page
+Login page is a simple two field form page with username, password and a submit button. This is a dummy form which, on success, should show a green background toast message on the top right of the screen.
+Feel free to write any validation rules to get to the error state/success state, we only care about the UI and not the business logic of the form.
+
+
+Responsiveness
+
+You will find 4 sections in the shared zeplin file. Each section is a fluid responsive design for following breakpoints of viewport width. 
+
+Mobile: 320px - 600px (inclusive)
+
+
+Tablet: 601px - 1180px (inclusive)
+
+
+Desktop: 1181px - 1980px (inclusive)
+Please note that the width of the center content grid remains fixed at 960px for the entire range of screenwidth. This means that the website should only grow/reduce the margins of the page with increase/decrease in screensize (within the range)
+
+
+
+
+
+
+Large Screens 1981px and beyond
+Please note that the width of the center content grid remains fixed at 1200px for the entire range of screenwidth. This means that the website should only grow/reduce the margins of the page with increase/decrease in screensize
+
+
+
+
+Form States
+You will also find a section with designs for states of different UI Components being used in all the pages. Please make sure you implement these. The design states are self explanatory.
+
+
+Tools and Tech Stack: 
+
+You may choose any tech stack you’re comfortable with, however using React is a Plus.
+
+You can choose any UI library however the implementation should be pixel perfect so please keep in mind that the UI framework/library should be highly extensible to fit the need.
+
+You can use any bundler to help you ship a fast website. Eg: webpack/rollup/parcel/browserify/gulp
+
+
+Evaluation
+Responsiveness
+Pixel perfection and eye for detail
+Clean code
+Reusable code/ UI components.
+CSS Architecture
+SEO friendliness
+Page load time
+
+
+Timeline: You will be given 1 full week to complete the project. You can submit your project via github or package the project in a zip and share it via google drive.
+
+All the best!
