@@ -101,7 +101,7 @@
     /* ATF section start here  */
     /* ---------------------------------  */
     .atf-section{
-        background: url('./images/banner2.png') center no-repeat;
+        background:#00083c url('./images/banner2.png') center no-repeat;
         background-size: cover;
         height: 600px;
         width: 100%;
@@ -183,7 +183,7 @@
     /* about-us section starts here  */
     /* ---------------------------------  */
     .about-atf-section{
-        background: url('./images/about-banner.jpg') center no-repeat;
+        background:#062d7a url('./images/about-banner.jpg') center no-repeat;
         background-size: cover;
         height: calc(100vh - 64px);
         width: 100%;
